@@ -27,7 +27,7 @@ const StakeSrx: React.FC<StakeProps> = ({}) => {
   const allowance = useAllowanceStaking()
   const {onApprove} = useApproveStaking()
 
-  const tokenBalance = useTokenBalance(contractAddresses.srx[3])
+  const tokenBalance = useTokenBalance(contractAddresses.srx[56])
 
   const {onEnter} = useEnter()
   const {onLeave} = useLeave()

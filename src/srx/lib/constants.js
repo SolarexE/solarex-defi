@@ -25,16 +25,16 @@ export const INTEGERS = {
 
 export const contractAddresses = {
   srx: {
-    3: '0x8CF970410AB312FBaB519b2612Cd2121C3B6b476',
+    56: '0x52B2EE624b6a13893977FA4A54103c739a21A05F',
   },
   masterChef: {
-    3: '0x9BfFc6d00F3C477aF070933ADfd765dA811E1c5b',
+    56: '0xaA37E4A6e6e7aFd4773f1D6dDD3529B0A45714DE',
   },
   weth: {
-    3: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   },
   xSrx: {
-    3: '0xd36e24F23eB3DFF9448826C20b72b019ceC85e15'
+    56: '0xB8f8B9462be09373dEb6F5Ef4ff092F65cd68826'
   }
 }
 
@@ -44,29 +44,17 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      3: '0x80e720d93de784772ba65a75293cf3bcc6b69d6e',
+      56: '0x52B2EE624b6a13893977FA4A54103c739a21A05F',
     },
     tokenAddresses: {
-      3: '0x8CF970410AB312FBaB519b2612Cd2121C3B6b476',
+      56: '0x52B2EE624b6a13893977FA4A54103c739a21A05F',
     },
     name: 'Srx Party!',
-    symbol: 'SRX-ETH SLP',
+    symbol: 'SRX-BNB SLP',
     tokenSymbol: 'SRX',
     icon: '🍣',
   },
-   {
-    pid: 1,
-    lpAddresses: {
-      3: '0x769236d9f25a6fbcb83dbb99093c4004a2c7dcfc',
-    },
-    tokenAddresses: {
-      3: '0x8CF970410AB312FBaB519b2612Cd2121C3B6b476',
-    },
-    name: 'Srx Party!',
-    symbol: 'SRX-BAT SLP',
-    tokenSymbol: 'SRX',
-    icon: '🍣',
-  },
+   
   
   // Perm Menu
 ]

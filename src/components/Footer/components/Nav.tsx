@@ -6,7 +6,7 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href="https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd#code"
+        href="https://bscscan.com/address/0x52B2EE624b6a13893977FA4A54103c739a21A05F#contracts"
       >
         MasterChef Contract
       </StyledLink>
@@ -16,16 +16,16 @@ const Nav: React.FC = () => {
       >
         SrxSwap SRX-ETH
       </StyledLink> */}
-      <StyledLink target="_blank" href="https://discord.gg/sqhXAqc">
+      <StyledLink target="_blank" href="#">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="https://github.com/srxswap">
+      <StyledLink target="_blank" href="#">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="https://twitter.com/srxswap">
+      <StyledLink target="_blank" href="#">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="https://medium.com/@srxswapchef">
+      <StyledLink target="_blank" href="#">
         Medium
       </StyledLink>
     </StyledNav>
