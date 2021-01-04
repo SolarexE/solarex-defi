@@ -17,7 +17,7 @@ const Nav: React.FC = () => {
       
       
       <StyledAbsoluteLink
-        href="localhost:3001"
+        href="https://friendly-benz-50a6b3.netlify.app/#/swap"
         target="_blank"
       >
         Exchange
