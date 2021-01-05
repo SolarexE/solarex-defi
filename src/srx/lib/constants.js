@@ -54,6 +54,22 @@ export const supportedPools = [
     tokenSymbol: 'SRX',
     icon: '🍣',
   },
+  
+  // new Pool
+  
+   {
+    pid: 1, // because the side is on 1.
+    lpAddresses: {
+      56: '0x2C3AD38B9b637486740da14D1902b508c69E4C97', // LP Token 
+    },
+    tokenAddresses: {
+      56: '0x52B2EE624b6a13893977FA4A54103c739a21A05F', // reward tokens // which is SRX
+    },
+    name: 'Srx Party!',
+    symbol: 'SRX-BNB SLP 2',
+    tokenSymbol: 'SRX',
+    icon: 'New',
+  },
    
   
   // Perm Menu
